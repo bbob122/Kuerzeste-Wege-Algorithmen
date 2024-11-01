@@ -15,12 +15,6 @@ import random
 import numpy as np
 import json
 
-# def center_gui(root):
-#     windowWidth = root.winfo_reqwidth()
-#     windowHeight = root.winfo_reqheight()
-#     positionRight = int(root.winfo_screenwidth()/2 - windowWidth/2)
-#     positionDown = int(root.winfo_screenheight()/2 - windowHeight/2)
-#     root.geometry("+{}+{}".format(positionRight, positionDown))
     
 def center_gui(root):
     windowWidth = root.winfo_reqwidth()
@@ -36,23 +30,6 @@ def center_gui(root):
     positionDown = int(screenHeight / 2 - max_height / 2)
 
     root.geometry(f"{max_width}x{max_height}+{positionRight}+{positionDown}")
-
-# def pop_up_window(app):
-#     def start_button_action():
-#         app.enable_buttons()
-#         win.destroy()
-
-#     win = Toplevel()
-#     win.wm_title("Welcome")
-#     Label(win, text="Step 1: Select starting point", font=("Calibri", 13), pady=5, padx=10).pack()
-#     Label(win, text="Step 2: Select end point", font=("Calibri", 13), pady=5, padx=10).pack()
-#     Label(win, text="Step 3: Select Obstacles", font=("Calibri", 13), pady=5, padx=10).pack()
-#     Label(win, text="Click and hover. Then click again to stop", padx=25).pack()
-#     Label(win, text="Step 4: Choose an algorithm to run", font=("Calibri", 13), pady=5, padx=10).pack()
-#     Label(win, text="Step 5: Use Clear Path or Reset", font=("Calibri", 13), pady=5, padx=10).pack()
-#     Button(win, text="Start", command=start_button_action).pack()
-#     win.update_idletasks()
-#     center_gui(win)
 
 class App:
     update_frequency=10
