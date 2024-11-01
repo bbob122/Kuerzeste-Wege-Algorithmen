@@ -1,12 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sun Oct 20 12:27:41 2024
-
-@author: ctholen
-"""
-
-# -*- coding: utf-8 -*-
-"""
 Created on Fri Oct 18 18:02:42 2024
 
 @author: ctholen
